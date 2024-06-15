@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Poppins-R';
+    src: url(../webfonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-B';
+    src: url(../webfonts/Poppins-Bold.ttf);
+}
+
+:root {
+    --main-color: #FFFFFF;
+    --main-color-rgb: 52, 52, 52;
+    --secondary-color: #fff;
+    --secondary-color-rgb: 255, 255, 255;
+    --shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    --heading-font-family: 'Poppins-B';
+    --body-font-family: 'Poppins-R';
+}
+
+/* base styles */
+body {
+    font-family: var(--body-font-family);
+}
+
+
+/* Global styles */
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,.h3,h6 {
+    font-family: Poppins-B;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+.btn-custom {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #00C3DA;
+    --bs-btn-border-color: #00C3DA;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #18acbd;
+    padding: 16px;
+    font-family: 'poppins-R';
+    font-size: 14px;
+}
+
+.btn-outline-light-custom {
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f8f9fa;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+.btn-bordered{
+    color: #1f1f1f;
+    border-color: #dedede;
+    background-color: transparent;
+    padding: 16px;
+    font-size: 11px;
+}
+
+.btn-bordered:hover {
+    color: #ffffff;
+    border-color: #dedede;
+    background-color: black;
+}
+
+/* Navbar */
+.navbar .container .navbar-logo {
+    font-family: var(--heading-font-family);
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar .social-links {
+    font-size: 12px;
+}
+
+/* & Header */
+
+header img {
+    width: 100%;
+}
+
+.header-title {
+    font-size: 100px;
+    color: var(--main-color);
+}
+
+header .slider-content {
+    width: 700px;
+    z-index: 2;
+}
+
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+/* ! Team */
+
+#team .item-caption{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: white;
+    transition: all 0.3s;
+}
+
+#team .team-header h2{
+    font-size: 38px;
+}
+
+#team .team-header [data-bigletter]:before{
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+}
+
+#team .team-header h2[data-bigletter]:before {
+    z-index: -1;
+    content: attr(data-bigletter);
+    font-size: 2em;
+    opacity: .06;
+    position: absolute;
+    top: -0.2em;
+    left: -0.15em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team .item:hover .item-caption{
+    opacity: 0.8;
+}
+
+#team figure figcaption h4{
+    font-size: 12px;
+}
+
+#team figure figcaption span{
+font-size: 12px;
+}
+
+#team .social-links{
+    font-size: 12px;
+}
+
+
+/* ^ Services */
+#services{
+    background-color: #626262;
+    color: white;
+}
+
+
+
+#services .services-content p{
+    font-size: 14px;
+}
+
+#services .services-list .list-1, .list-2{
+    line-height: 40px;
+}
+
+
+#services .services-content [data-bigletter]:before{
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#services .services-content h2[data-bigletter]:before {
+    z-index: 0;
+    /* background-color: black; */
+    content: attr(data-bigletter);
+    font-size: 2em;
+    opacity: .06;
+    position: absolute;
+    top: -0.6em;
+    left: -9.15em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* *Pricing */
+
+#pricing{
+    background-color: #F7F7F7;
+}
+
+#pricing .card-content .card .card-p{
+    font-size: 55px;
+    font-family: 'poppins-R';
+    padding-left: 12px;
+}
+
+
+#pricing .card-content .card-3 {
+    transform: scale(1.08);
+}
+
+
+/* testimonial */
+
+#testimonial{
+    background-color: #F7F7F7;
+}
+
+.slider{
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    p{
+        color: #787878;
+        font-size: 14px;
+    }
+
+    background-color: white;
+}
+
+/* map */
+
+.map{
+    height:645px
+}

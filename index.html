@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 1</title>
+
+
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <!-- ====== Preloader ======  -->
+    <div class="loading">
+        <div class="load-circle"></div>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top border-bottom border-0">
+            <div class="container">
+                <h2 class="navbar-logo"><a class="navbar-brand" href="#home">
+                        <img src="./assets/Images/logo-light.png" alt="">
+                    </a></h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#works">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-links m-3 p-1 border-start ">
+                    <i class="fa-brands fa-facebook-f p-2 text-light"></i>
+                    <i class="fa-brands fa-twitter p-2 text-light"></i>
+                    <i class="fa-brands fa-instagram p-2 text-light"></i>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <!-- & Header -->
+
+
+    <header class="vh-100">
+        <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner drk">
+                <div class="carousel-item active">
+                    <img src="./assets/Images/bg-image-28.jpg" class=" d-block w-100 vh-100" alt="...">
+                    <div
+                        class="slider-content position-absolute w-50 top-50 start-50 text-center translate-middle text-light">
+                        <h1 class="header-title mb-2">Get Awesome.</h1>
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="mb-2">
+                            <button class="btn btn-custom"><a class="text-light" href="#">Contact us</a></button>
+                            <button class="btn btn-outline-light p-3">learn more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative drk">
+                    <img src="./assets/Images/bg-image-29.jpg" class="d-block w-100 vh-100" alt="...">
+                    <div class="slider-content position-absolute w-75 top-50 start-50 text-center translate-middle">
+                        <h1 class="header-title mb-3">Create With Bezel.</h1>
+                        <p class="text-light mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="mb-2 mt-3">
+                            <button class="btn btn-custom"><a href="#" class="text-light">Contact us</a></button>
+                            <button class="btn btn-outline-light-custom p-3">learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ^ About Us -->
+
+    <section id="About-us" class="border-bottom">
+        <div class="container">
+            <div class="w-50 m-auto text-center my-5 py-5">
+                <h3 class="my-4">Who We Are</h3>
+                <p class="my-4 text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vero
+                    tenetur quisquam cupiditate magnam incidunt ipsa illo maxime assumenda! Eaque veniam et deserunt
+                    laudantium laboriosam at officiis nam. Non, ipsa.</p>
+                <button class="btn btn-bordered my-4">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ! Our Team  -->
+
+    <section id="team">
+        <div class="container p-5 my-5">
+            <div class="team-header text-center p-4 m-4 position-relative">
+                <h2 data-bigletter="C">Creative Team</h2>
+                <p>We are digital thinkers</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <figure class="position-relative item">
+                        <img class="w-100" src="./assets/Images/team-1.jpg" alt="">
+                        <figcaption
+                            class="position-absolute item-caption bg-info d-flex flex-column align-items-start justify-content-end p-4 text-center position-relative">
+                            <div class="social-links position-absolute top-0 py-4">
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                            </div>
+                            <h4>Luke Cage</h4>
+                            <span>CEO</span>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <figure class="position-relative item">
+                        <img class="w-100" src="./assets/Images/team-2.jpg" alt="">
+                        <figcaption
+                            class="position-absolute item-caption bg-info d-flex flex-column align-items-start justify-content-end p-4 text-center position-relative">
+                            <div class="social-links position-absolute top-0 py-4">
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                            </div>
+                            <h4>Luke Cage</h4>
+                            <span>CEO</span>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <figure class="position-relative item">
+                        <img class="w-100" src="./assets/Images/team-3.jpg" alt="">
+                        <figcaption
+                            class="position-absolute item-caption bg-info d-flex flex-column align-items-start justify-content-end p-4 text-center position-relative">
+                            <div class="social-links position-absolute top-0 py-4">
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                            </div>
+                            <h4>Luke Cage</h4>
+                            <span>CEO</span>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <figure class="position-relative item">
+                        <img class="w-100" src="./assets/Images/team-4.jpg" alt="">
+                        <figcaption
+                            class="position-absolute item-caption bg-info d-flex flex-column align-items-start justify-content-end p-4 text-center position-relative">
+                            <div class="social-links position-absolute top-0 py-4">
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                                <i class="fa-brands fa-facebook-f px-1"></i>
+                            </div>
+                            <h4>Luke Cage</h4>
+                            <span>CEO</span>
+                        </figcaption>
+
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ^Services  -->
+
+    <section id="services" class="services py-5 ">
+        <div class="container">
+            <div class="services-title d-flex flex-md-row p-5 justify-content-between flex-sm-column align-items-sm-center justify-content-sm-around">
+                <h4 class="h6">STUNNING DESIGN</h4>
+                <h4 class="h6">TIME SAVER</h4>
+                <h4 class="h6">CLEAN CODE</h4>
+                <h4 class="h6">Customizable</h4>
+                <h4 class="h6">Perfect Layout</h4>
+                <h4 class="h6">Retina Ready</h4>
+            </div>
+
+            <div class=" d-flex align-items-center">
+                <div class="services-content w-50 position-relative">
+                    <h2 data-bigletter="W">What We Do.</h2>
+                    <p class="w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur facere
+                        ducimus architecto
+                        laboriosam maxime quae deserunt magnam nobis nam placeat! Tempore at praesentium nobis neque
+                        facere voluptatem, voluptatum eius tenetur?</p>
+
+                </div>
+                <div class="services-list d-flex justify-content-around py-4 align-items-center gap-5">
+                    <ul class=" list-1">
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Research</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Opportunity Analysis</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Consulting</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Brand Planning</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Customer Support</li>
+                    </ul>
+
+                    <ul class="list-2">
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Logo & Branding</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Style guides</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Motion graphics</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>UX/UI-design</li>
+                        <li><i class="fa-regular fa-circle-check px-3"></i>Social media design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- * Pricing -->
+
+    <section id="pricing" class="pricing-section">
+
+        <div class="pricing-header text-center py-5 ">
+            <h2 data-bigletter="C">Cheap Prices</h2>
+            <p>We provide the best quality.</p>
+        </div>
+        <div class="container py-3">
+
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-around py-5 card-content ">
+                    <div class="card col-md-3 col-sm-6 py-5 px-4 m-3" style="width: 18rem;">
+
+                        <span>Starter</span>
+                        <p class="card-p position-relative">9 <span
+                                class="position-absolute top-0 start-0 fs-6">$</span>
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Unlimited Connections</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class="list-group-item">Full SSL Protection</li>
+                            <li class="list-group-item">Unlimited Channels</li>
+                        </ul>
+                        <button class="btn btn-info w-50 position-relative m-auto">
+                            Sign up
+                        </button>
+                    </div>
+
+                    <div class="card col-md-3 col-sm-6 py-5 px-4 m-3" style="width: 18rem;">
+
+                        <span>Starter</span>
+                        <p class="card-p position-relative">27 <span
+                                class="position-absolute top-0 start-0 fs-6">$</span>
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Unlimited Connections</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class="list-group-item">Full SSL Protection</li>
+                            <li class="list-group-item">Unlimited Channels</li>
+                        </ul>
+                        <button class="btn btn-info w-50 position-relative m-auto">
+                            Sign up
+                        </button>
+                    </div>
+
+                    <div class="card card-3 col-md-3 col-sm-6 py-5 px-4 m-3 position-relative" style="width: 18rem;">
+                        <span class="position-absolute end-0 fs-7 bg-info rounded text-center me-4 text-light p-1">Best
+                            Choice</span>
+                        <span>Starter</span>
+                        <p class="card-p position-relative text-info">37 <span
+                                class="position-absolute top-0 start-0 fs-6">$</span>
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Unlimited Connections</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class="list-group-item">Full SSL Protection</li>
+                            <li class="list-group-item">Unlimited Channels</li>
+                        </ul>
+                        <button class="btn btn-info w-50 position-relative m-auto text-light">
+                            Sign up
+                        </button>
+                    </div>
+
+                    <div class="card col-md-3 col-sm-6 py-5 px-4 m-3" style="width: 18rem;">
+
+                        <span>Starter</span>
+                        <p class="card-p position-relative">47 <span
+                                class="position-absolute top-0 start-0 fs-6">$</span>
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Unlimited Connections</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class="list-group-item">Full SSL Protection</li>
+                            <li class="list-group-item">Unlimited Channels</li>
+                        </ul>
+                        <button class="btn btn-info w-50 position-relative m-auto">
+                            Sign up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container text-center pb-3 m-auto">
+            <span>Happy customers</span>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="container text-center m-auto">
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container text-center p-5 m-5 m-auto">
+
+                        <div class="slider text-center p-5 m-5 border-4 rounded-4 position-relative w-75 mx-auto">
+                            <img src="./assets/Images/testimonial-1.jpg"
+                                class="rounded-circle position-absolute top-0 start-50 translate-middle" alt="">
+                            <h2 class="fs-5 p-1">mohsen beblawy</h2>
+                            <span class="fs-7 py-5">CEO, Yahoo</span>
+                            <p class="py-5 w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                ut
+                                asperiores sequi quae inventore
+                                assumenda, maiores ab eveniet minima, sed vel iure quod aliquid sint! Repellendus
+                                dignissimos quasi
+                                corporis aliquam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-center p-5 m-5 m-auto">
+                        <div class="slider text-center p-5 m-5 border-4 rounded-4 position-relative w-75 mx-auto">
+                            <img src="./assets/Images/testimonial-1.jpg"
+                                class="rounded-circle position-absolute top-0 start-50 translate-middle" alt="">
+                            <h2 class="fs-5 p-1">mohsen beblawy</h2>
+                            <span class="fs-7 py-5">CEO, Yahoo</span>
+                            <p class="py-5 w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                ut
+                                asperiores sequi quae inventore
+                                assumenda, maiores ab eveniet minima, sed vel iure quod aliquid sint! Repellendus
+                                dignissimos quasi
+                                corporis aliquam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- contact us  -->
+
+    <section id="contact-us">
+        <div class="d-flex position-relative">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3665824.30486415!2d35.20442801562499!3d26.199718116607233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssa!4v1716599200637!5m2!1sen!2ssa"
+                class="w-50 map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="container w-50 ">
+                <h2>Get our contacts</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis?</p>
+
+                <div class="container mt-5">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
